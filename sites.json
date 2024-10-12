@@ -1,10 +1,4 @@
 {
-    "amex": {
-        "caps": [ "SIGNON", "CCSTMT" ],
-        "fid": "3101",
-        "fiorg": "AMEX",
-        "url": "https://online.americanexpress.com/myca/ofxdl/desktop/desktopDownload.do?request_type=nl_ofxdownload"
-    },
     "chase": {
         "caps": [ "SIGNON", "CCSTMT" ],
         "fiorg": "B1",
@@ -17,16 +11,11 @@
         "fid": "7776",
         "url": "https://ofx.fidelity.com/ftgw/OFX/clients/download"
     },
-    "vanguard": {
-        "caps": [ "SIGNON", "INVSTMT" ],
-        "fiorg": "vanguard.com",
-        "url": "https://vesnc.vanguard.com/us/OfxDirectConnectServlet"
-    },
-    "usaa": {
+    "elevationscu": {
         "caps": [ "SIGNON", "BASTMT" ],
-        "fid": "24591",
-        "fiorg": "USAA",
-        "url": "https://service2.usaa.com/ofx/OFXServlet",
-        "bankid": "314074269"
+        "fid": "307074580",
+        "fiorg": "uofcfcu",
+        "url": "https://ofxdc.prd1.ncr.com/cmr/cmr.ofx",
+        "bankid": ""
     }
 }
